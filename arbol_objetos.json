@@ -1,0 +1,196 @@
+{
+  "contenido": "¿Es un objeto de uso cotidiano?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "¿Se usa para escribir o dibujar?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Es un lápiz?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Lápiz",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Tiene tinta?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Bolígrafo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Marcador",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Se usa en la cocina?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Corta cosas?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Cuchillo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "¿Se usa para mezclar?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Cuchara",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Plato",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Se usa en el baño?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "¿Es para limpiar?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Jabón",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Toalla",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        },
+        "rama_no": {
+          "contenido": "¿Se usa para dormir?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Almohada",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "¿Es para guardar cosas?",
+            "es_pregunta": true,
+            "rama_si": {
+              "contenido": "Bolsa",
+              "es_pregunta": false,
+              "rama_si": null,
+              "rama_no": null
+            },
+            "rama_no": {
+              "contenido": "Lámpara",
+              "es_pregunta": false,
+              "rama_si": null,
+              "rama_no": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "rama_no": {
+    "contenido": "¿Es un medio de transporte?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Es terrestre?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Tiene cuatro ruedas?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Auto",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "¿Tiene dos ruedas?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Bicicleta",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Tren",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Es acuático?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Barco",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Avión",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Es un electrodoméstico?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Enfría?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Refrigerador",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "¿Calienta?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Horno",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Lavadora",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        }
+      },
+      "rama_no": {
+        "contenido": "Mueble",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "contenido": "Es un animal?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "Maulle?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "Gato",
+      "es_pregunta": false,
+      "rama_si": null,
+      "rama_no": null
+    },
+    "rama_no": {
+      "contenido": "Perro",
+      "es_pregunta": false,
+      "rama_si": null,
+      "rama_no": null
+    }
+  },
+  "rama_no": {
+    "contenido": "Computadora",
+    "es_pregunta": false,
+    "rama_si": null,
+    "rama_no": null
+  }
+}

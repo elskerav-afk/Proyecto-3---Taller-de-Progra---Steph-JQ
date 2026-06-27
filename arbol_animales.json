@@ -1,0 +1,126 @@
+{
+  "contenido": "¿Es un animal?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "¿Es un mamífero?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Es domesticado?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Ladra?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Perro",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Gato",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Vive en el agua?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Delfín",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "León",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Tiene plumas?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Vuela?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Águila",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Pingüino",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Tiene 8 patas?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Araña",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Vive dentro del agua?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Pez",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Serpiente",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        }
+      }
+    }
+  },
+  "rama_no": {
+    "contenido": "¿Es electrónico?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Es portátil?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Teléfono",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "Computadora",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Se come?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Manzana",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "Mesa",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    }
+  }
+}

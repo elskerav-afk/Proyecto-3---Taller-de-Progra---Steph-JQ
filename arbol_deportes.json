@@ -1,0 +1,116 @@
+{
+  "contenido": "¿Se juega en equipo?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "¿Se juega con balón?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Es fútbol?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Fútbol",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Se juega en una cancha rectangular?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Baloncesto",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Voleibol",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Se juega sobre hielo?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Hockey",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Usa raqueta?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Tenis",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Béisbol",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    }
+  },
+  "rama_no": {
+    "contenido": "¿Requiere equipamiento especial?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Se hace en el agua?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Natación",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Se hace en la nieve?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Esquí",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Escalada",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Es un deporte de combate?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Se practica sobre un tatami?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Judo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Boxeo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "Atletismo",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    }
+  }
+}

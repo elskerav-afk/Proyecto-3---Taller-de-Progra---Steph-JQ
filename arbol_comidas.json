@@ -1,0 +1,106 @@
+{
+  "contenido": "¿Es una fruta?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "¿Es roja?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Crece en árboles?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Manzana",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "Fresa",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Es amarilla?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Tiene cáscara gruesa?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Piña",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Plátano",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "Naranja",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    }
+  },
+  "rama_no": {
+    "contenido": "¿Es un plato principal?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Tiene carne?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Es italiana?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Pasta a la Boloñesa",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Bistec",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Lleva queso?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Pizza",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Ensalada",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Es un postre?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Pastel",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "Bebida",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      }
+    }
+  }
+}

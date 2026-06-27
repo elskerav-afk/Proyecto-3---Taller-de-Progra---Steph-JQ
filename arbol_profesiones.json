@@ -1,0 +1,146 @@
+{
+  "contenido": "¿Trabaja en un hospital?",
+  "es_pregunta": true,
+  "rama_si": {
+    "contenido": "¿Es médico?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Atiende a niños?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Pediatra",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Se especializa en cirugía?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Cirujano",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Cardiólogo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Ayuda a los médicos?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "Enfermero",
+        "es_pregunta": false,
+        "rama_si": null,
+        "rama_no": null
+      },
+      "rama_no": {
+        "contenido": "¿Trabaja en laboratorio?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Técnico de Laboratorio",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Psicólogo",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    }
+  },
+  "rama_no": {
+    "contenido": "¿Trabaja con computadoras?",
+    "es_pregunta": true,
+    "rama_si": {
+      "contenido": "¿Diseña cosas?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Diseña gráficos?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Diseñador Gráfico",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Arquitecto",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Construye sistemas?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Ingeniero de Software",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Analista de Datos",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    },
+    "rama_no": {
+      "contenido": "¿Es una profesión creativa?",
+      "es_pregunta": true,
+      "rama_si": {
+        "contenido": "¿Actúa?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Actor",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "¿Toca música?",
+          "es_pregunta": true,
+          "rama_si": {
+            "contenido": "Músico",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          },
+          "rama_no": {
+            "contenido": "Pintor",
+            "es_pregunta": false,
+            "rama_si": null,
+            "rama_no": null
+          }
+        }
+      },
+      "rama_no": {
+        "contenido": "¿Enseña?",
+        "es_pregunta": true,
+        "rama_si": {
+          "contenido": "Profesor",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        },
+        "rama_no": {
+          "contenido": "Abogado",
+          "es_pregunta": false,
+          "rama_si": null,
+          "rama_no": null
+        }
+      }
+    }
+  }
+}
